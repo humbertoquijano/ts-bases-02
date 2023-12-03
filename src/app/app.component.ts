@@ -9,11 +9,11 @@ export class AppComponent {
   public title: string = 'First App Angular';
   public counter: number = 10;
 
-  increaseBy():void {
-    this.counter += 1;
+  increaseBy(value: number):void {
+    this.counter += value;
   }
 
-  decreaseBy():void {
-    this.counter -= 1;
+  decreaseBy(value: number):void {
+    this.counter -= value;
   }
 }
