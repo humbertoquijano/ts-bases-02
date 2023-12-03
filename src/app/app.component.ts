@@ -16,4 +16,8 @@ export class AppComponent {
   decreaseBy(value: number):void {
     this.counter -= value;
   }
+
+  resetCounter(): void {
+    this.counter= 10;
+  }
 }
